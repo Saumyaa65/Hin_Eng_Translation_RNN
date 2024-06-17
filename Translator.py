@@ -4,12 +4,12 @@ import pandas as pd
 import os
 from pathlib import Path
 
-batch_size=3
+batch_size=2
 epochs=3
-latent_dim=160
-num_samples=5000
-hin_data_path= "IITB.en-hi.hi"
-eng_data_path='IITB.en-hi.en'
+latent_dim=70
+num_samples=4500
+hin_data_path= "train.hi"
+eng_data_path='train.en'
 
 input_texts=[]
 target_texts=[]
